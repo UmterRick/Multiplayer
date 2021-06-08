@@ -7,6 +7,7 @@ from player import Player
 server = "192.168.0.101"
 port = 5555
 
+
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 try:
     s.bind((server, port))

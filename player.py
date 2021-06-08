@@ -2,6 +2,7 @@ import pygame
 width = 500
 height = 500
 
+
 class Player():
     def __init__(self, x, y, width, height, color):
         self.x = x
